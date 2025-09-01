@@ -9,7 +9,7 @@ jobs:
               run: echo "my first github repository"
 
             - name: Actions
-              run: actions/checkout@v5.0.0
+              uses: actions/checkout@v5.0.0
 
             - name: List
               run: ls
