@@ -8,6 +8,9 @@ jobs:
             - name: Welcome
               run: echo "my first github repository"
 
+            - name: Actions
+              run: actions/checkout@v5
+
             - name: List
               run: ls
 
